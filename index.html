@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>University</title>
+</head>
+
+<body>
+    <section class="navbar" id="Home">
+        <nav>
+            <ion-icon name="menu-outline" onclick="openNavbar()" id="open"></ion-icon>
+            <ion-icon name="close-outline" onclick="closeNavbar()" id="close"></ion-icon>
+            <label class="logo">Yadav Navin</label>
+            <ul class="list-item list-visible">
+                <li><a href="#Home" class="active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#course">Courses</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+        <div class="text-box">
+            <h1>Biggest University In The World</h1>
+            <p>This is the biggest University they provide HTML , CSS , JAVASCRIPT ,PYTHON and also all Engineering
+                corses.</p>
+            <a href="#" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    <section class="course" id="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, aliquid!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h2>Intermediate</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, alias. Enim sint magni possimus
+                    beatae voluptatum id minima modi laudantium autem reiciendis qui ipsa aspernatur saepe, repellat,
+                    adipisci excepturi eos.</p>
+            </div>
+            <div class="course-col">
+                <h2>Graduate</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, alias. Enim sint magni possimus
+                    beatae voluptatum id minima modi laudantium autem reiciendis qui ipsa aspernatur saepe, repellat,
+                    adipisci excepturi eos.</p>
+            </div>
+            <div class="course-col">
+                <h2>Post Graduate</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, alias. Enim sint magni possimus
+                    beatae voluptatum id minima modi laudantium autem reiciendis qui ipsa aspernatur saepe, repellat,
+                    adipisci excepturi eos.</p>
+            </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, beatae!</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="/image/bulding.jpeg" alt="London" />
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/image/secon_building.jpeg" alt="australia" />
+                <div class="layer">
+                    <h3>AUSTRALIA</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/image/white.jpeg" alt="paris" />
+                <div class="layer">
+                    <h3>PARIS</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Facilities">
+        <h1>Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, beatae!</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="/image/library.jpeg" alt="library" />
+                <div class="layer">
+                    <h3>LIBRARY</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/image/wallybowl.jpeg" alt="wallybowl" />
+                <div class="layer">
+                    <h3>WALLYBOWL</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/image/meeting.jpeg" alt="meeting" />
+                <div class="layer">
+                    <h3>MEETING TEAM</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, beatae!</p>
+        <div class="row">
+            <div class="fastimonial-col">
+                <img src="/image/girls.jpeg" alt="Girls" />
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, nisi? Autem cum eum iste nisi
+                        nihil molestiae cupiditate ex adipisci, fugiat perspiciatis dolor velit nesciunt amet modi
+                        soluta praesentium voluptatum!</p>
+                    <h3>Christine Berley</h3>
+                </div>
+            </div>
+            <div class="fastimonial-col">
+                <img src="/image/man.jpeg" alt="man" />
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, nisi? Autem cum eum iste nisi
+                        nihil molestiae cupiditate ex adipisci, fugiat perspiciatis dolor velit nesciunt amet modi
+                        soluta praesentium voluptatum!</p>
+                    <h3>Charloes Berley</h3>
+                    <!-- Random name -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+        <a href="#" class="hero-btn">CONTACT US</a>
+    </section>
+    <!-- Footer -->
+    <section class="footer" id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sit ea alias adipisci ratione corrupti
+            tenetur accusamus laborum. <br>Beatae enim commodi, at expedita laboriosam magnam rem temporibus tempore
+            pariatur porro!</p>
+            <div class="icon">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-github"></ion-icon>
+            </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="./js.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
